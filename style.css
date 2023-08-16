@@ -1,0 +1,83 @@
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+}
+
+main {
+    text-align: center;
+    padding: 70px;
+    padding-top: 30px;
+}
+
+#clock {
+    background: #A00;
+    font-size: 4em;
+    margin: 20px;
+    font-family: monospace;
+}
+
+#current {
+    background: #0A0;
+}
+
+#next {
+    background: #00A;
+}
+
+.item_name {
+    font-size: 3em;
+}
+
+.item_time {
+    font-size: 2.5em;
+}
+
+.time_warn {
+    background-color: #A00 !important;
+}
+
+.even-block {
+    background-color: #0A4 !important;
+}
+
+.odd-block {
+    background-color: #08B !important;
+}
+
+#timeline {
+    text-align: left;
+    margin-top: 30px;
+    width: 100%;
+    background-color: #333;
+    height: 100px;
+    position: relative;
+}
+
+#playhead {
+    background-color: red;
+    width: 3px;
+    height: 100%;
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.timeline_block {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    background-color: #0A0;
+    
+    height: 100%;
+    color: #EEE;
+    font-size: 0.75em;
+}
+
+.timeline_block p {
+    padding: 8px;
+    margin: 0px;
+}

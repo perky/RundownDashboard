@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <div id="clock"></div>
+        
+        <h1>Current</h1>
+        <div id="current">
+            <div id="current_name" class="item_name"></div>
+            <div id="current_time" class="item_time"></div>
+            <div id="current_tminus" class="item_time"></div>
+        </div>
+
+        <h1>Next</h1>
+        <div id="next">
+            <div id="next_name" class="item_name"></div>
+            <div id="next_time" class="item_time"></div>
+            <div id="next_tminus" class="item_time"></div>
+        </div>
+
+        <div id="timeline">
+            <div id="playhead"></div>
+        </div>
+    </main>
+    <script src="moment.js"></script>
+	<script src="rundown.js"></script>
+  </body>
+</html>
